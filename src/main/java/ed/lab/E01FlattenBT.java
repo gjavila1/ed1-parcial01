@@ -13,7 +13,7 @@ public class E01FlattenBT {
         stack.push(root);
         TreeNode<Integer> antes = null;
 
-        //Validar que el stack no este vacio
+        //Validar que el stack no este vacioo
         while (!stack.isEmpty()) {
             TreeNode<Integer> node = stack.pop();
 
